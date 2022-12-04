@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+  }
+
+  img {
+    max-width: 100%;
+  }
+  
+  ol, ul {
+    list-style: none;
+  }
+
+body{
+    font-family: Poppins;
+}  
+
+.content{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background-color: aliceblue;
+}
+
+.arrow{
+    padding: 20px;
+}
+
+.card{
+    background-color: rgb(189, 189, 189);
+    display: flex;
+    border-radius: 5px;
+    height: 45%;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: center;
+    padding: 30px;
+}
+
+.card:hover{
+    width: 30%;
+}
+
+.carModel{
+    margin-top: 10px;
+}
+
+.infos{
+    display: none;
+}
+
+.card:hover .infos{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin: 0 auto;
+}
+
+.image img{
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.arrow img{
+    cursor: pointer;
+}
